@@ -1,0 +1,819 @@
+.voltar{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 40px 850px;
+  cursor: pointer;
+
+  background-image: linear-gradient(144deg,#0676ff, #f9f9f9 50%,#03d0e7);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  
+  
+
+}
+
+.cor_kiss{
+
+    background-image: linear-gradient(144deg,#e409d2, #4277f3 30%,#eb00cc);
+}
+
+
+.cor_m80{
+
+    background-image: linear-gradient(144deg,#ffffff, #ff0000 20%,#000000);
+}
+
+.cor_rfm{
+    
+    background-image: linear-gradient(144deg,#000000, #ff0000 20%,#000000);
+}
+
+.cor_rua{
+    
+    background-image: linear-gradient(144deg,#f94d09, #ff6200 20%,#f76b00);
+}
+
+
+
+.m80{
+    width: 300px;
+    height: 150px;
+    margin: 1px 100px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_esq; 
+     animation-duration: 2s;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgb(255, 0, 0);
+    color: white;
+}
+
+.m80_2{
+    
+    width: 300px;
+    height: 150px;
+    margin: 20px 650px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_meio; 
+     animation-duration: 2s;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgb(255, 0, 0);
+    color: white;
+}
+
+
+
+.m80_3{
+    
+    width: 400px;
+    height: 520px;
+    margin:80px 1300px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_dir; 
+     animation-duration: 2s;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px rgb(255, 0, 0);
+    color: white;
+}
+
+.m80Titulo{
+    color:rgb(211, 12, 12);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(0, 0, 0);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+}
+
+
+.locutor_m80Titulo{
+    color:rgb(211, 12, 12);
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(0, 0, 0);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 4s;
+      
+}
+
+.tablelocutores_m80{
+
+    border-style: dotted;
+    border: 2px solid #ffffff00;
+    width:190px;
+    height:200px;
+    border-collapse: collapse;
+    animation: locutores; 
+     animation-duration: 4s;
+
+
+
+}
+
+
+
+.locutor_m80 {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+/*  */
+/*  */
+
+
+
+
+.rua{
+    width: 300px;
+    height: 220px;
+    margin: 1px 100px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 153, 0);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_esq; 
+     animation-duration: 2s;
+    color: white;
+}
+
+.rua_2{
+    
+    width: 300px;
+    height: 190px;
+    margin: 20px 650px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 153, 0);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_meio; 
+     animation-duration: 2s;
+    color: white;
+}
+
+
+
+.rua_3{
+    
+    width: 400px;
+    height: 60px;
+    margin:80px 1300px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 153, 0);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_dir; 
+     animation-duration: 2s;
+    color: white;
+}
+
+.ruaTitulo{
+    color:rgb(242, 127, 11);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(2, 3, 102);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+}
+
+
+.locutor_ruaTitulo{
+    color:rgb(242, 127, 11);
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(2, 3, 102);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+}
+
+.tablelocutores_rua{
+
+    border-style: dotted;
+    border: 2px solid #ffffff00;
+    width:190px;
+    height:200px;
+    border-collapse: collapse;
+    animation: locutores; 
+     animation-duration: 3s;
+
+
+
+}
+
+
+
+
+
+.locutor_rua {
+    width: 700px;
+    margin: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+  /*  */
+  /*  */
+
+
+
+  .rfm{
+    width: 300px;
+    height: 150px;
+    margin: 1px 100px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 2, 2);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_esq; 
+     animation-duration: 2s;
+    color: white;
+}
+
+.rfm_2{
+    
+    width: 300px;
+    height: 170px;
+    margin: 20px 650px;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_meio; 
+     animation-duration: 2s;
+    color: white;
+}
+
+
+
+.rfm_3{
+    
+    width: 400px;
+    height: 750px;
+    margin:80px 1300px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-align: justify;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+    animation: quadrado_dir; 
+     animation-duration: 2s;
+    color: white;
+}
+
+.rfmTitulo{
+    color:rgb(245, 245, 244);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+  
+    text-shadow: 3px 4px rgb(239, 7, 7);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+}
+
+
+.locutor_rfmTitulo{
+    color:rgb(245, 245, 244);
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(239, 7, 7);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+}
+
+.tablelocutores_rfm{
+
+    border-style: dotted;
+    border: 2px solid #ffffff00;
+    width:190px;
+    height:200px;
+    border-collapse: collapse;
+    animation: locutores; 
+     animation-duration: 4s;
+
+
+
+}
+
+
+
+.locutor_rfm {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+  
+    
+  }
+  .locutor_rfm:hover{
+    transform: scale(1.4)
+  }
+
+  
+
+
+
+  /*  */
+  /*  */
+
+
+  .cidade{
+    width: 300px;
+    height: 150px;
+    margin: 1px 100px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_esq; 
+     animation-duration: 3s;
+    background-color: rgb(252, 255, 80);
+    box-shadow: 10px 10px 5px rgb(7, 113, 235);
+}
+
+.cidade2{
+    
+    width: 300px;
+    height: 150px;
+    margin: 20px 650px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_meio; 
+     animation-duration: 3s;
+    background-color: rgb(252, 255, 80);
+    box-shadow: 10px 10px 5px rgb(7, 113, 235);
+}
+
+
+
+.cidade3{
+    
+    width: 400px;
+    height: 370px;
+    margin:80px 1300px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_dir; 
+     animation-duration: 3s;
+    background-color: rgb(252, 255, 80);
+    box-shadow: 10px 10px 5px rgb(7, 113, 235);
+}
+
+.cidadeTitulo{
+    color:rgb(242, 230, 11);
+    text-align: left;
+    letter-spacing: 3px;
+    font-family: Fantasy;
+    text-shadow: 0px 5px rgb(4, 5, 98);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 3s;
+      
+}
+
+
+.locutor_cidadeTitulo{
+    color:rgb(242, 230, 11);
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: Fantasy;
+    text-shadow: 0px 5px rgb(4, 5, 98);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 5s;
+      
+}
+
+.tablelocutores{
+
+    border-style: dotted;
+    border: 2px solid #bedb1b;
+    width:190px;
+    height:200px;
+    border-collapse: collapse;
+    animation: locutores; 
+     animation-duration: 4s;
+
+
+
+}
+
+
+
+.locutor {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    color: yellow;
+  }
+
+  .locutor:hover{
+    
+      transform: scale(1.1)
+    
+  
+  }
+
+
+  /*  */
+/*  */
+
+.kissTitulo{
+     color:rgb(20, 152, 219);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(226, 15, 138);
+    animation: texto; 
+    animation-duration: 2s;
+     object-fit: cover;
+      
+}  
+
+.kiss{
+    width: 300px;
+    height: 150px;
+    margin: 1px 100px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_esq; 
+     animation-duration: 2s;
+    background-color:rgb(20, 152, 219);
+    box-shadow: 10px 10px 5px rgb(248, 4, 163);
+}
+
+.kiss2{
+    
+    width: 300px;
+    height: 150px;
+    margin: 20px 650px;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_meio; 
+     animation-duration: 2s;
+    background-color:rgb(20, 152, 219);
+    box-shadow: 10px 10px 5px rgb(248, 4, 163);
+    text-align: justify;
+}
+
+
+
+.kiss3{
+    
+    width: 400px;
+    height: 370px;
+    margin:80px 1300px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    text-align: justify;
+    animation: quadrado_dir; 
+     animation-duration: 2s;
+    background-color:rgb(20, 152, 219);
+    box-shadow: 10px 10px 5px rgb(248, 4, 163);
+    text-align: justify;
+}
+
+
+.locutor_kissTitulo{
+    color:rgb(11, 161, 242);
+    text-align: left;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: Fantasy;
+    text-shadow: 0px 5px rgb(248, 4, 163);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 3s;
+      
+}
+
+
+.table_kisslocutores{
+
+    border-style: dotted;
+    border: 2px solid #14d3dd;
+    width:190px;
+    height:200px;
+    border-collapse: collapse;
+
+
+
+}
+
+
+.locutor_kiss {
+    width: 600px;
+    box-shadow: 0px 0px 0px 0 rgba(230, 230, 230, 0.2), 0 0px 0px 0 rgba(232, 216, 216, 0.19);
+    text-align: center;
+    color: rgb(248, 4, 163);
+    background-color:  rgb(20, 152, 219);;
+  }
+
+
+.img{
+
+    height: 315px;
+    width: 1px;
+
+}
+
+
+
+
+
+
+.Nome {
+    padding: 10px;
+  }
+
+
+  /*  
+  */
+  /* 
+   */
+
+.horas{
+
+    background-color: crimson;
+    font-size: 20px;
+    color: aliceblue;
+    margin: 225px;
+    font-family: Fantasy Copperplate;
+    border-radius: 16px;
+    padding: 0px 4px;
+
+   }
+
+  .card {
+    box-shadow: 0 4px 8px 0 #431ae8;
+    width: 35%;
+    animation: cartao_esq; 
+    animation-duration: 5s;
+    margin:0px 50px;
+    background-color:#0075e3 ;
+  
+    
+  }
+.texto{
+      margin-left: 25px;
+      padding-top: 10px;
+      background-color: aliceblue;
+      text-align: justify;
+  }
+  .foto{
+      display: grid;
+      grid-template-columns: 300px 300px;
+      margin: 15px;
+      padding: 20px;
+  }
+  .titulo_locutor_kiss{
+      margin: 10px;
+      font-size: 30px;
+      text-align: center;
+      color:rgb(20, 152, 219);
+          
+      letter-spacing: 2px;
+      font-family: Fantasy Copperplate;
+      text-shadow: 4px 1px rgb(194, 14, 119);
+  }
+  
+
+  
+
+
+
+  .card2 {
+    box-shadow: 0 4px 8px 0 #431ae8;
+    width: 35%;
+    animation: cartao_dir; 
+    animation-duration: 5s;
+    margin:20px 1100px;
+    background-color:#0075e3 ;
+    
+  }
+
+
+.redes_socias{
+
+  text-align: center;
+  display: inline-block;
+  margin: 30px 800px;
+  cursor: pointer;
+
+
+
+}
+
+.redes_socias2{
+
+  text-align: center;
+  display: inline-block;
+  margin: 30px 720px;
+  cursor: pointer;
+
+
+
+}
+
+
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background-image: linear-gradient(50deg,#ff0000, #e4f342 5%,#db00eb);
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-whatsapp{
+
+    background: green;
+    color: white;
+  }
+
+
+  
+  
+
+
+
+
+  @keyframes cartao_esq {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes cartao_dir {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes  quadrado_esq {
+    0% {
+      -webkit-transform: translateY(-1000px) translateX(-1000px);
+              transform: translateY(-1000px) translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes quadrado_meio {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes quadrado_dir {
+    0% {
+      -webkit-transform: translateY(-1000px) translateX(1000px);
+              transform: translateY(-1000px) translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) translateX(0);
+              transform: translateY(0) translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes locutores {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes texto {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+
+  

@@ -1,0 +1,314 @@
+html, body {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.ir_kiss{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 670px;
+  cursor: pointer;
+  animation: ir; 
+  animation-duration: 2s;
+  background-image: linear-gradient(100deg,#ff00aa, #1150e4 50%,#167dea);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(8, 41, 173, 0.374) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  
+  
+
+}
+
+.ir_m80{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 670px;
+  cursor: pointer;
+  animation: ir; 
+  animation-duration: 2s;
+  background-image: linear-gradient(100deg,#000000, #ff0000 50%,#000000);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(8, 41, 173, 0.374) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  
+  
+
+}
+
+.ir_rfm{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 670px;
+  cursor: pointer;
+  animation: ir; 
+  animation-duration: 2s;
+  background-image: linear-gradient(100deg,#ff0000, #ffffff 50%,#ff0000);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(234, 7, 7, 0.192) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  
+  
+
+}
+
+
+
+
+.ir_rua{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 660px;
+  cursor: pointer;
+  animation: ir; 
+  animation-duration: 2s;
+  background-image: linear-gradient(100deg,#ea5916, #eaa314 50%,#ea5916);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(8, 41, 173, 0.374) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  
+  
+
+}
+
+.ir_cidade{
+
+  border: none;
+  color: rgb(211, 20, 20);
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 650px;
+  cursor: pointer;
+  animation: ir; 
+  animation-duration: 2s;
+  background-image: linear-gradient(100deg,#1675ea, #dfea14 50%,#0855ee);
+  border: 0;
+  border-radius: 20px;
+  box-shadow: rgba(8, 41, 173, 0.374) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #000000;
+  
+  
+
+}
+
+
+
+
+.foto{
+    position: relative;
+    width: 350px;
+    background: #f0f0f0;
+    animation: card; 
+    animation-duration: 2s;
+}
+
+
+.foto .box{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    
+   
+}
+
+.foto .box img {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+.foto audio{
+    width:100%;
+    outline: none;
+    
+    
+
+    
+}
+
+.titulokiss{
+    color:rgb(20, 152, 219);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(226, 15, 138);
+    animation: texto; 
+     animation-duration: 2s;
+     object-fit: cover;
+      
+
+    /* Brush Script MT
+    Lucida Handwriting
+    Fantasy	Copperplate
+    Papyrus */
+}
+.titulom80{
+    color:rgb(211, 12, 12);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(0, 0, 0);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+
+    /* Brush Script MT
+    Lucida Handwriting
+    Fantasy	Copperplate
+    Papyrus */
+}
+.titulorua{
+    color:rgb(242, 127, 11);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(2, 3, 102);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+
+    /* Brush Script MT
+    Lucida Handwriting
+    Fantasy	Copperplate
+    Papyrus */
+}
+
+.titulocidade{
+    color:rgb(242, 230, 11);
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: Fantasy;
+    text-shadow: 0px 5px rgb(2, 3, 102);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+
+    /* Brush Script MT
+    Lucida Handwriting
+    Fantasy	Copperplate
+    Papyrus */
+}
+
+.titulorfm{
+    color:rgb(245, 245, 244);
+    text-align: left;
+    letter-spacing: 1px;
+    font-family: Fantasy;
+    text-shadow: 3px 4px rgb(239, 7, 7);
+     object-fit: cover;
+     animation: texto; 
+     animation-duration: 2s;
+      
+
+    /* Brush Script MT
+    Lucida Handwriting
+    Fantasy	Copperplate
+    Papyrus */
+}
+
+
+
+.tamanho{
+    position: relative;
+    width: 170px;
+    background: #29242400;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+}
+
+
+
+@keyframes texto {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+
+  @keyframes card {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 100% 0%;
+              transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes ir {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
