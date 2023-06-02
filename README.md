@@ -1,4 +1,4 @@
-# <img src="./imgens/radio.png" width="48"> radioo-portugal
+# <img src="./imgens/radio.png" width="40"> radioo-portugal
 📻 🇵🇹 Rádiooo Portugal
 
 Welcome to Rádiooo Portugal, a comprehensive website dedicated to providing you with a vast selection of online radio stations. 
